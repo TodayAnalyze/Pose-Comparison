@@ -1,0 +1,4 @@
+backend,clip,frames,mean_ms,p95_ms,fps
+yolo,fast,669,36.21,34.44,27.6
+yolo,medium,689,36.08,34.64,27.7
+yolo,slow,752,33.81,35.92,29.6

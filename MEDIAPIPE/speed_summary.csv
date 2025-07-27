@@ -1,0 +1,4 @@
+backend,clip,frames,mean_ms,p95_ms,fps
+mp,fast,669,24.46,24.95,40.9
+mp,medium,689,24.33,24.95,41.1
+mp,slow,752,24.98,26.88,40.0
