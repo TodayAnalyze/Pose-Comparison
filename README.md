@@ -43,9 +43,9 @@ OPENPOSE/models/graph/mobilenet_thin/graph_opt.pb
 
 ```
 
-You must manually download this file from the original repository: https://github.com/ildoonet/tf-pose-estimation
+You must manually download this file from the original repository: https://github.com/jiajunhua/ildoonet-tf-pose-estimation/blob/master/models/graph/mobilenet_thin/graph.pb
 
-once downloaded please place it in there.
+once downloaded please place it in .../mobilenet_thin.
 
 ## 🧰 Dependencies
 
@@ -60,15 +60,21 @@ once downloaded please place it in there.
  - Ultralytics
  - PyTorch
  - CUDA Toolkit (for GPU support)
+ - Used Ultralytics original repo as a starting point: https://github.com/ultralytics/ultralytics
 
 ### 🔹 OpenPose
  - Tensorflow
  - graph_otp.pb model file (see note above)
- - tf_pose_estimation.git
+ - Used jiajunhua's original repo as a starting point: https://github.com/jiajunhua/ildoonet-tf-pose-estimation
+ - CUDA Toolkit (for GPU support)
   ```bash
-git clone https://github.com/ildoonet/tf-pose-estimation.git
+git clone https://github.com/jiajunhua/ildoonet-tf-pose-estimation
 cd tf-pose-estimation
 pip install -r requirements.txt
+```
+IMPORTANT RECOMMENDATION:
+I highly advise to use separate conda environments to run these three pose frameworks since they all require different versions of dependencies so to avoid having to reinstall versions of PyTorch or whatever, just set up each conda environment with the correct dependencies. 
+
 
 ```
-
+NOI
