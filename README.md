@@ -60,12 +60,15 @@ once downloaded please place it in .../mobilenet_thin.
  - Ultralytics
  - PyTorch
  - CUDA Toolkit (for GPU support)
- - Used Ultralytics original repo as a starting point: https://github.com/ultralytics/ultralytics
+ - Used Ultralytics original repo as a starting point: https://github.com/ultralytics/ultralytics PLEASE REFER TO THEIR REPO
 
 ### 🔹 OpenPose
- - Tensorflow
+ - Tensorflow 1.4.1+
+ - opencv3
+ - protobuf
+ - python3-tk
  - graph_otp.pb model file (see note above)
- - Used jiajunhua's original repo as a starting point: https://github.com/jiajunhua/ildoonet-tf-pose-estimation
+ - Used jiajunhua's original repo as a starting point: https://github.com/jiajunhua/ildoonet-tf-pose-estimation PLEASE REFER TO THEIR REPO 
  - CUDA Toolkit (for GPU support)
   ```bash
 git clone https://github.com/jiajunhua/ildoonet-tf-pose-estimation
